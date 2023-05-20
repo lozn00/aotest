@@ -1,0 +1,1 @@
+dotnet publish HeeloWorld.csproj -r win-x64 -c release

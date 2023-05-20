@@ -1,0 +1,1 @@
+dotnet publish helloworld7.0.csproj --no-self-contained true -r win-x64 -c release
