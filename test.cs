@@ -1,13 +1,6 @@
 ﻿using System;
+using System.Data.SqlClient;
 
-namespace HelloWorld
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            SqlClient
-        }
-    }
-}
+Console.WriteLine("Hello World!");
+var connection = new SqlConnection("Data Source=ServerName");
+connection.Open();
